@@ -479,49 +479,97 @@
     <div class="a">
         <div class="d">
             <div class="b">
-                <form>
-                    <fieldset>
-                        <legend>Filter By:</legend>
-
-                        <div
-                            style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; margin-top: 50px;">
-                            Level <br>
-                            <input style="margin-top: 5px;" type="checkbox" id="beginner">
-                            <label for="beginner">Beginner (580)</label> <br>
-
-                            <input style="margin-top: 5px;" type="checkbox" id="intermediate">
-                            <label for="intermediate">Intermediate (489)</label> <br>
-
-                            <input style="margin-top: 5px;" type="checkbox" id="advanced">
-                            <label for="advanced">Advanced (33)</label><br>
-
-                            <input style="margin-top: 5px;" type="checkbox" id="mixed">
-                            <label for="mixed">Mixed (99)</label><br>
-                        </div>
-
-                        <div
-                            style="margin-top: 50px;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana">
-                            Duration <br>
-                            <input style="margin-top: 5px;" type="checkbox" id="less-than-2-hours">
-                            <label for="less-than-2-hours">Less Than 2 Hours (405)</label> <br>
-
-                            <input style="margin-top: 5px;" type="checkbox" id="1-4-weeks">
-                            <label for="1-4-weeks">1-4 Weeks (365)</label><br>
-
-                            <input style="margin-top: 5px;" type="checkbox" id="1-3-months">
-                            <label for="1-3-months">1-3 Months (296)</label><br>
-
-                            <input style="margin-top: 5px;" type="checkbox" id="3-6-months">
-                            <label for="3-6-months">3-6 Months (126)</label><br>
-
-                            <input style="margin-top: 5px;" type="checkbox" id="6-12-months">
-                            <label for="6-12-months">6-12 Months (4)</label><br>
-
-                            <input style="margin-top: 5px;" type="checkbox" id="1-4-years">
-                            <label for="1-4-years">1-4 Years (8)</label><br>
-                        </div>
-                    </fieldset>
-                </form>
+                <h1>Filter By</h1>
+                <br>
+                <ul>
+                    <li>
+                        <strong>Level(Required)</strong> <br>
+                        <ul>
+                            <li><input type="checkbox" id="beginner"> <label for="beginner">Beginner(581)</label></li> <br>
+                            <li><input type="checkbox" id="intermediate"> <label for="intermediate">Intermediate(491)</label></li> <br>
+                            <li><input type="checkbox" id="advanced"> <label for="advanced">Advanced(33)</label></li> <br> <br>
+                            <li><input type="checkbox" id="mixed"> <label for="mixed">Mixed(99)</label></li> <br>
+                        </ul>
+                    </li>
+            
+                    <li>
+                        <strong>Duration(Required)</strong> <br>
+                        <ul>
+                            <li><input type="checkbox" id="lessThan2Hours"> <label for="lessThan2Hours">Less Than 2 Hours(406)</label></li> <br>
+                            <li><input type="checkbox" id="1-4Weeks"> <label for="1-4Weeks">1-4 Weeks(367)</label></li> <br>
+                            <li><input type="checkbox" id="1-3Months"> <label for="1-3Months">1-3 Months(296)</label></li> <br>
+                            <li><input type="checkbox" id="3-6Months"> <label for="3-6Months">3-6 Months(126)</label></li> <br>
+                            <li><input type="checkbox" id="6-12Months"> <label for="6-12Months">6-12 Months(4)</label></li> <br>
+                            <li><input type="checkbox" id="1-4Years"> <label for="1-4Years">1-4 Years(8)</label></li> <br>
+                        </ul>
+                    </li>
+                </ul>
+                        <ul>
+                            <li>
+                                <strong>Skills(Required)</strong> <br>
+                                <ul>
+                                    <li><input type="checkbox" id="webDevelopment"> <label for="webDevelopment">Web Development(261)</label></li> <br>
+                                    <li><input type="checkbox" id="computerProgramming"> <label for="computerProgramming">Computer Programming(215)</label></li> <br>
+                                    <li><input type="checkbox" id="javascript"> <label for="javascript">Javascript(192)</label></li> <br>
+                                    <li><input type="checkbox" id="leadershipManagement"> <label for="leadershipManagement">Leadership and Management(130)</label></li> <br>
+                                </ul>
+                            </li>
+                    
+                            <li>
+                                <strong>Subtitles(Required)</strong> <br>
+                                <ul>
+                                    <li><input type="checkbox" id="english"> <label for="english">English(1,073)</label></li> <br>
+                                    <li><input type="checkbox" id="spanish"> <label for="spanish">Spanish(600)</label></li> <br>
+                                    <li><input type="checkbox" id="arabic"> <label for="arabic">Arabic(569)</label></li> <br>
+                                    <li><input type="checkbox" id="french"> <label for="french">French(522)</label></li> <br>
+                                </ul>
+                            </li>
+                    
+                            <li>
+                                <strong>Educator(Required)</strong> <br>
+                                <ul>
+                                    <li><input type="checkbox" id="courseraProjectNetwork"> <label for="courseraProjectNetwork">Coursera Project Network (373)</label></li> <br>
+                                    <li><input type="checkbox" id="meta"> <label for="meta">Meta (127)</label></li> <br>
+                                    <li><input type="checkbox" id="googleCloud"> <label for="googleCloud">Google Cloud (70)</label></li> <br>
+                                    <li><input type="checkbox" id="ibm"> <label for="ibm">IBM (51)</label></li> <br>
+                                </ul>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <strong>Subject(Required)</strong> <br>
+                                <ul>
+                                    <li><input type="checkbox" id="computerScience"> <label for="computerScience">Computer Science(858)</label></li> <br>
+                                    <li><input type="checkbox" id="business"> <label for="business">Business(109)</label></li> <br>
+                                    <li><input type="checkbox" id="informationTech"> <label for="informationTech">Information Technology(107)</label></li> <br>
+                                    <li><input type="checkbox" id="dataScience"> <label for="dataScience">Data Science(52)</label></li> <br>
+                                </ul>
+                            </li>
+                    
+                            <li>
+                                <strong>Language(Required)</strong> <br>
+                                <ul>
+                                    <li><input type="checkbox" id="english"> <label for="english">English(970)</label></li> <br>
+                                    <li><input type="checkbox" id="spanish"> <label for="spanish">Spanish(606)</label></li> <br>
+                                    <li><input type="checkbox" id="arabic"> <label for="arabic">Arabic(579)</label></li> <br>
+                                    <li><input type="checkbox" id="french"> <label for="french">French(523)</label></li> <br>
+                                </ul>
+                            </li>
+                    
+                            <li>
+                                <strong>Learning Product(Required)</strong> <br>
+                                <ul>
+                                    <li><input type="checkbox" id="guidedProjects"> <label for="guidedProjects">Guided Projects(367) - Build job-relevant skills in under 2 hours with hands-on tutorials.</label></li> <br>
+                                    <li><input type="checkbox" id="courses"> <label for="courses">Courses(646) - Learn from top instructors with graded assignments, videos, and discussion forums.</label></li> <br>
+                                    <li><input type="checkbox" id="projects"> <label for="projects">Projects(39) - Learn a new tool or skill in an interactive, hands-on environment.</label></li> <br>
+                                    <li><input type="checkbox" id="specializations"> <label for="specializations">Specializations(109) - Get in-depth knowledge of a subject by completing a series of courses and projects.</label></li> <br>
+                                    <li><input type="checkbox" id="professionalCertificates"> <label for="professionalCertificates">Professional Certificates(43) - Earn career credentials from industry leaders that demonstrate your expertise.</label></li> <br>
+                                    <li><input type="checkbox" id="masterTrackCertificates"> <label for="masterTrackCertificates">MasterTrack® Certificates(2) - Earn career credentials while taking courses that count towards your Master’s degree.</label></li> <br>
+                                    <li><input type="checkbox" id="degrees"> <label for="degrees">Degrees(8) - Earn your Bachelor’s or Master’s degree online for a fraction of the cost of in-person learning.</label></li> <br>
+                                    <li><input type="checkbox" id="graduateCertificates"> <label for="graduateCertificates">Graduate Certificates(2) - Earn a university-issued career credential in a flexible, interactive format.</label></li> <br>
+                                </ul>
+                            </li>
+                        </ul>
             </div>
             <div class="c">
                 <h2
